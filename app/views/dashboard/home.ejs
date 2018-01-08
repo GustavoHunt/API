@@ -1,0 +1,19 @@
+<html>
+    <body>
+    Websites on queue: <%=data.length%>
+        <table border="1">
+            <tr>
+                <td>RowKey</td>
+                <td>Title</td>
+                <td>URL</td>
+            </tr>
+            <%for(var i=0;i<data.length;i++) {%>
+            <tr>
+                <td><%=data[i].rowKey%></td>
+                <td><%=data[i].title%></td>
+                <td><%=data[i].url%></td>
+            </tr>
+            <%}%>
+        </table>
+    </body>
+</html>

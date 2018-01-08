@@ -1,0 +1,111 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'https://github.com/AliasIO/Wappalyzer.git' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData https://github.com/AliasIO/Wappalyzer.git
+8 silly fetchOtherPackageData https://github.com/AliasIO/Wappalyzer.git
+9 silly cache add args [ 'https://github.com/AliasIO/Wappalyzer.git', null ]
+10 verbose cache add spec https://github.com/AliasIO/Wappalyzer.git
+11 silly cache add parsed spec Result {
+11 silly cache add   raw: 'https://github.com/AliasIO/Wappalyzer.git',
+11 silly cache add   scope: null,
+11 silly cache add   escapedName: null,
+11 silly cache add   name: null,
+11 silly cache add   rawSpec: 'https://github.com/AliasIO/Wappalyzer.git',
+11 silly cache add   spec: 'git+https://github.com/AliasIO/Wappalyzer.git',
+11 silly cache add   type: 'hosted',
+11 silly cache add   hosted:
+11 silly cache add    { type: 'github',
+11 silly cache add      ssh: 'git@github.com:AliasIO/Wappalyzer.git',
+11 silly cache add      sshUrl: 'git+ssh://git@github.com/AliasIO/Wappalyzer.git',
+11 silly cache add      httpsUrl: 'git+https://github.com/AliasIO/Wappalyzer.git',
+11 silly cache add      gitUrl: 'git://github.com/AliasIO/Wappalyzer.git',
+11 silly cache add      shortcut: 'github:AliasIO/Wappalyzer',
+11 silly cache add      directUrl: 'https://raw.githubusercontent.com/AliasIO/Wappalyzer/master/package.json' } }
+12 verbose addRemoteGit caching https://github.com/AliasIO/Wappalyzer.git
+13 verbose addRemoteGit git+https://github.com/AliasIO/Wappalyzer.git is a repository hosted by github
+14 silly tryClone cloning git+https://github.com/AliasIO/Wappalyzer.git via git+https://github.com/AliasIO/Wappalyzer.git
+15 verbose tryClone git-https-github-com-AliasIO-Wappalyzer-git-0441802e not in flight; caching
+16 verbose correctMkdir /var/root/.npm/_git-remotes correctMkdir not in flight; initializing
+17 info git [ 'config', '--get', 'remote.origin.url' ]
+18 silly validateExistingRemote git+https://github.com/AliasIO/Wappalyzer.git remote.origin.url: https://github.com/AliasIO/Wappalyzer.git
+19 verbose validateExistingRemote git+https://github.com/AliasIO/Wappalyzer.git is updating existing cached remote /var/root/.npm/_git-remotes/git-https-github-com-AliasIO-Wappalyzer-git-0441802e
+20 info git [ 'fetch', '-a', 'origin' ]
+21 verbose updateRemote git fetch -a origin (https://github.com/AliasIO/Wappalyzer.git)
+22 verbose correctMkdir /var/root/.npm/_git-remotes correctMkdir not in flight; initializing
+23 verbose setPermissions git+https://github.com/AliasIO/Wappalyzer.git set permissions on /var/root/.npm/_git-remotes/git-https-github-com-AliasIO-Wappalyzer-git-0441802e
+24 verbose resolveHead git+https://github.com/AliasIO/Wappalyzer.git original treeish: master
+25 info git [ 'rev-list', '-n1', 'master' ]
+26 silly resolveHead git+https://github.com/AliasIO/Wappalyzer.git resolved treeish: be78de5aca7b54995d588317e2e4f7bbe044a251
+27 verbose resolveHead git+https://github.com/AliasIO/Wappalyzer.git resolved Git URL: git+https://github.com/AliasIO/Wappalyzer.git#be78de5aca7b54995d588317e2e4f7bbe044a251
+28 silly resolveHead Git working directory: /tmp/npm-71281-2641644a/git-cache-b54a704f/be78de5aca7b54995d588317e2e4f7bbe044a251
+29 info git [ 'clone',
+29 info git   '/var/root/.npm/_git-remotes/git-https-github-com-AliasIO-Wappalyzer-git-0441802e',
+29 info git   '/tmp/npm-71281-2641644a/git-cache-b54a704f/be78de5aca7b54995d588317e2e4f7bbe044a251' ]
+30 verbose cloneResolved git+https://github.com/AliasIO/Wappalyzer.git clone Cloning into '/tmp/npm-71281-2641644a/git-cache-b54a704f/be78de5aca7b54995d588317e2e4f7bbe044a251'...
+30 verbose cloneResolved done.
+31 info git [ 'checkout', 'be78de5aca7b54995d588317e2e4f7bbe044a251' ]
+32 verbose checkoutTreeish git+https://github.com/AliasIO/Wappalyzer.git checkout Note: checking out 'be78de5aca7b54995d588317e2e4f7bbe044a251'.
+32 verbose checkoutTreeish
+32 verbose checkoutTreeish You are in 'detached HEAD' state. You can look around, make experimental
+32 verbose checkoutTreeish changes and commit them, and you can discard any commits you make in this
+32 verbose checkoutTreeish state without impacting any branches by performing another checkout.
+32 verbose checkoutTreeish
+32 verbose checkoutTreeish If you want to create a new branch to retain commits you create, you may
+32 verbose checkoutTreeish do so (now or later) by using -b with the checkout command again. Example:
+32 verbose checkoutTreeish
+32 verbose checkoutTreeish   git checkout -b <new-branch-name>
+32 verbose checkoutTreeish
+32 verbose checkoutTreeish HEAD is now at be78de5a... Build v5.3.2
+33 info git [ 'submodule', '-q', 'update', '--init', '--recursive' ]
+34 verbose updateSubmodules git+https://github.com/AliasIO/Wappalyzer.git submodule update
+35 error addLocal Could not install /tmp/npm-71281-2641644a/git-cache-b54a704f/be78de5aca7b54995d588317e2e4f7bbe044a251
+36 silly fetchPackageMetaData Error: No name provided in package.json
+36 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/cache/add-local.js:65:17
+36 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:356:5
+36 silly fetchPackageMetaData     at checkBinReferences_ (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:320:45)
+36 silly fetchPackageMetaData     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:354:3)
+36 silly fetchPackageMetaData     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
+36 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:243:12
+36 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+36 silly fetchPackageMetaData     at tryToString (fs.js:456:3)
+36 silly fetchPackageMetaData     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:443:12)
+36 silly fetchPackageMetaData  error for https://github.com/AliasIO/Wappalyzer.git Error: No name provided in package.json
+36 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/lib/cache/add-local.js:65:17
+36 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:356:5
+36 silly fetchPackageMetaData     at checkBinReferences_ (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:320:45)
+36 silly fetchPackageMetaData     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:354:3)
+36 silly fetchPackageMetaData     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
+36 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:243:12
+36 silly fetchPackageMetaData     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+36 silly fetchPackageMetaData     at tryToString (fs.js:456:3)
+36 silly fetchPackageMetaData     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:443:12)
+37 silly rollbackFailedOptional Starting
+38 silly rollbackFailedOptional Finishing
+39 silly runTopLevelLifecycles Finishing
+40 silly install printInstalled
+41 verbose stack Error: No name provided in package.json
+41 verbose stack     at /usr/local/lib/node_modules/npm/lib/cache/add-local.js:65:17
+41 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:356:5
+41 verbose stack     at checkBinReferences_ (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:320:45)
+41 verbose stack     at final (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:354:3)
+41 verbose stack     at then (/usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
+41 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/read-package-json/read-json.js:243:12
+41 verbose stack     at /usr/local/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+41 verbose stack     at tryToString (fs.js:456:3)
+41 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:443:12)
+42 verbose cwd /Users/coelhog/Dev/mSite/msites-master/API
+43 error Darwin 16.7.0
+44 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "https://github.com/AliasIO/Wappalyzer.git"
+45 error node v6.11.0
+46 error npm  v3.10.10
+47 error No name provided in package.json
+48 error If you need help, you may report this error at:
+48 error     <https://github.com/npm/npm/issues>
+49 verbose exit [ 1, true ]

@@ -1,0 +1,847 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"req",
+				"request"
+			],
+			[
+				"res",
+				"results"
+			],
+			[
+				"st",
+				"statusCode"
+			],
+			[
+				"tes",
+				"teststatus"
+			],
+			[
+				"wptAfter",
+				"wptAfterTestId"
+			],
+			[
+				"Test",
+				"testId"
+			],
+			[
+				"url",
+				"URL"
+			],
+			[
+				"we",
+				"website"
+			],
+			[
+				"Page",
+				"PageSpeed"
+			],
+			[
+				"va",
+				"validate"
+			],
+			[
+				"bod",
+				"bodyParser"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"fun",
+				"function"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/src/index.html",
+			"settings":
+			{
+				"buffer_size": 1436,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/src/app/pages/register/register.component.html",
+			"settings":
+			{
+				"buffer_size": 10670,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "import { Component, OnInit } from '@angular/core';\nimport { FormBuilder, FormGroup, Validators, FormControl } from '@angular/forms';\nimport { PasswordValidation } from '../../forms/validationforms/password-validator.component';\n\ndeclare\nvar $: any;\n\n@Component({\n    moduleId: module.id,\n    selector: 'register-cmp',\n    templateUrl: './register.component.html'\n})\n\nexport class RegisterComponent implements OnInit {\n\n\n    test: Date = new Date();\n\n    checkFullPageBackgroundImage() {\n        var $page = $('.full-page');\n        var image_src = $page.data('image');\n\n        if (image_src !== undefined) {\n            var image_container = '<div class=\"full-page-background\" style=\"background-image: url(' + image_src + ') \"/>'\n            $page.append(image_container);\n        }\n    };\n    ngOnInit() {\n        this.checkFullPageBackgroundImage();\n        this.user = {\n            email: '',\n            password: '',\n            confirmPassword: ''\n        }\n        this.typeValidation = {\n            text: '',\n            email: '',\n            idSource: '',\n            idDestination: '',\n            url: ''\n        }\n    }\n}",
+			"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/src/app/pages/register/register.component.ts",
+			"file_size": 3452,
+			"file_write_time": 131498673820000000,
+			"settings":
+			{
+				"buffer_size": 1137,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/angular-cli.json",
+			"settings":
+			{
+				"buffer_size": 2553,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/karma.conf.js",
+			"settings":
+			{
+				"buffer_size": 1240,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/protractor.conf.js",
+			"settings":
+			{
+				"buffer_size": 756,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/tsconfig.json",
+			"settings":
+			{
+				"buffer_size": 431,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/tslint.json",
+			"settings":
+			{
+				"buffer_size": 2710,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/typings.json",
+			"settings":
+			{
+				"buffer_size": 88,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/app.yaml",
+			"settings":
+			{
+				"buffer_size": 57,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/package.json",
+			"settings":
+			{
+				"buffer_size": 2333,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/src/assets/sass/material-dashboard/_variables.scss",
+			"settings":
+			{
+				"buffer_size": 40310,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 87.0,
+		"last_filter": "instal",
+		"selected_items":
+		[
+			[
+				"instal",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/coelhog/Dev/mSite/msites-master/dashboard",
+		"/Users/coelhog/Dev/mSite/msites-master/dashboard/src",
+		"/Users/coelhog/Dev/mSite/msites-master/dashboard/src/app"
+	],
+	"file_history":
+	[
+		"/private/var/folders/fw/zdr3ztzd5yl2gr5fnv2l7ttm00ffw4/T/eab01224-ffd6-4e85-86ca-34df03aeb281/html/10.a85034ce7fe25e74b5a6.chunk.js",
+		"/Users/coelhog/Dev/mSite/msites-master/dashboard/src/assets/sass/material-dashboard/_checkboxes.scss",
+		"/Users/coelhog/Dev/mSite/msites-master/dashboard/src/app/app.routing.ts",
+		"/Users/coelhog/Dev/mSite/msites-master/dashboard/src/app/pages/login/login.component.html",
+		"/Users/coelhog/Dev/mSite/msites-master/dashboard/src/assets/sass/material-dashboard/_pages.scss",
+		"/Users/coelhog/Dev/experimenta.html",
+		"/Users/coelhog/Dev/mSite/msites-master/dashboard/src/assets/sass/material-dashboard/_inputs.scss",
+		"/Users/coelhog/Dev/mSite/msites-master/dashboard/src/assets/css/material-dashboard.css",
+		"/Users/coelhog/Downloads/fonts.css",
+		"/Users/coelhog/Dev/mSite/msites-master/dashboard/src/app/pages/lock/lock.component.html",
+		"/Users/coelhog/Dev/floresmaru.html",
+		"/Users/coelhog/Dev/sagradafamilia.html",
+		"/Users/coelhog/Dev/casa.html",
+		"/Users/coelhog/Dev/garza.html",
+		"/Users/coelhog/Dev/pullman.html",
+		"/Users/coelhog/Dev/actua.html",
+		"/Users/coelhog/Dev/mSite/msites-master/API/package.json",
+		"/Users/coelhog/Dev/mSite/msites-master/API/app.yaml",
+		"/Users/coelhog/Dev/mSite/msites-master/API/config/express.js",
+		"/Users/coelhog/Dev/mSite/msites-master/API/app/views/dashboard/addItem.ejs",
+		"/Users/coelhog/Dev/mSite/msites-master/API/app/views/dashboard/home.ejs",
+		"/Users/coelhog/Dev/mSite/msites-master/API/app/infra/connectionFactory.js",
+		"/Users/coelhog/Dev/mSite/msites-master/API/test/dashboard.js",
+		"/Users/coelhog/Dev/mSite/msites-master/API/test/dashboard",
+		"/Users/coelhog/Dev/mSite/msites-master/API/app/infra/callScriptDB.js",
+		"/Users/coelhog/Documents/andre/bootstrap.min.css",
+		"/Users/coelhog/Dev/mSite/config/express.js",
+		"/Users/coelhog/Dev/mSite/API/app.js",
+		"/Users/coelhog/Dev/mSite/API/app/routes/dashboard.js",
+		"/Users/coelhog/Dev/mSite/app.js",
+		"/Users/coelhog/Dev/mSite/app/routes/produtos.js",
+		"/Users/coelhog/Dev/mSite/views/produtos/lista.ejs",
+		"/private/var/folders/fw/zdr3ztzd5yl2gr5fnv2l7ttm00ffw4/T/ac5f813a-e85c-44ab-889c-f663cffa515b/public_html/gustavoscoelho/clientes/vendajaautos/include/mysql_config.php",
+		"/Users/coelhog/Downloads/secom/admin/inserir/artigo.php",
+		"/Users/coelhog/Downloads/secom/admin/inserir/caixa-eletronico.php",
+		"/Users/coelhog/Downloads/secom/admin/inserir/categoria.php",
+		"/Users/coelhog/Downloads/secom/admin/inserir/cliente.php",
+		"/Users/coelhog/Downloads/secom/admin/inserir/conteudo.php",
+		"/Users/coelhog/Downloads/secom/admin/inserir/evento.php",
+		"/Users/coelhog/Downloads/secom/admin/inserir/publicidade.php",
+		"/Users/coelhog/Downloads/secom/admin/class.upload.php",
+		"/Users/coelhog/Downloads/secom/admin/esqueci-enviar.php",
+		"/Users/coelhog/Downloads/secom/error_log",
+		"/Users/coelhog/Downloads/secom/resultados.php",
+		"/Users/coelhog/Downloads/secom/include/configuracoes.php",
+		"/Users/coelhog/Downloads/secom/index.php",
+		"/Users/coelhog/Downloads/secom/noticias-detalhes.php",
+		"/Users/coelhog/Downloads/secom/admin/artigos-editar.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/artigo.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/aumentar-vencimento-boleto.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/comissao.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/enviar-boleto.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/menu.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/pagamento.php",
+		"/Users/coelhog/Downloads/secom/admin/categorias-editar.php",
+		"/Users/coelhog/Downloads/secom/admin/clientes-editar.php",
+		"/Users/coelhog/Downloads/secom/admin/criar-email-individual.php",
+		"/Users/coelhog/Downloads/secom/admin/criar-email.php",
+		"/Users/coelhog/Downloads/secom/admin/enviar-email.php",
+		"/Users/coelhog/Downloads/secom/admin/login.php",
+		"/Users/coelhog/Downloads/secom/admin/publicidade-editar.php",
+		"/Users/coelhog/Downloads/secom/admin/publicidade-topo.php",
+		"/Users/coelhog/Downloads/secom/admin/topo.php",
+		"/Users/coelhog/Downloads/secom/conteudo.php",
+		"/Users/coelhog/Downloads/secom/convenios.php",
+		"/Users/coelhog/Downloads/secom/downloads.php",
+		"/Users/coelhog/Downloads/secom/topo.php",
+		"/Users/coelhog/Downloads/secom/admin/artigos-adicionar.php",
+		"/Users/coelhog/Downloads/secom/admin/artigos.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/administrador.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/anuncio.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/caixa-eletronico.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/categoria.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/cliente.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/conteudo.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/depoimento.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/email-individual.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/email-landing.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/email.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/entrada_veiculo.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/evento.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/meus-dados.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/opcoes.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/publicidade.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/valor-mensalidade.php",
+		"/Users/coelhog/Downloads/secom/admin/atualizar/valor-venda.php",
+		"/Users/coelhog/Downloads/secom/admin/categorias.php",
+		"/Users/coelhog/Downloads/secom/admin/clientes-adicionar.php",
+		"/Users/coelhog/Downloads/secom/admin/clientes.php",
+		"/Users/coelhog/Downloads/secom/admin/configuracoes-administradores-adicionar.php",
+		"/Users/coelhog/Downloads/secom/admin/configuracoes-administradores-editar.php",
+		"/Users/coelhog/Downloads/secom/admin/configuracoes-administradores.php",
+		"/Users/coelhog/Downloads/secom/admin/configuracoes-menu.php",
+		"/Users/coelhog/Downloads/secom/admin/configuracoes-opcoes.php",
+		"/Users/coelhog/Downloads/secom/admin/conteudo-adicionar.php",
+		"/Users/coelhog/Downloads/secom/admin/conteudo-lista.php",
+		"/Users/coelhog/Downloads/secom/admin/conteudo.php",
+		"/Users/coelhog/Downloads/secom/admin/depoimentos-editar.php",
+		"/Users/coelhog/Downloads/secom/admin/depoimentos.php",
+		"/Users/coelhog/Downloads/secom/admin/excluir/administrador.php",
+		"/Users/coelhog/Downloads/secom/admin/excluir/anuncio.php",
+		"/Users/coelhog/Downloads/secom/admin/excluir/artigo.php",
+		"/Users/coelhog/Downloads/secom/admin/excluir/assinante.php",
+		"/Users/coelhog/Downloads/secom/admin/excluir/caixa-eletronico.php",
+		"/Users/coelhog/Downloads/secom/admin/excluir/categoria.php",
+		"/Users/coelhog/Downloads/secom/admin/excluir/clientes.php",
+		"/Users/coelhog/Downloads/secom/admin/excluir/comissao.php",
+		"/Users/coelhog/Downloads/secom/admin/excluir/conteudo.php",
+		"/Users/coelhog/Downloads/secom/admin/excluir/depoimento.php",
+		"/Users/coelhog/Downloads/secom/admin/excluir/evento.php",
+		"/Users/coelhog/Downloads/secom/admin/excluir/imagem.php",
+		"/Users/coelhog/Downloads/secom/admin/excluir/menu.php",
+		"/Users/coelhog/Downloads/secom/admin/excluir/pagamento.php",
+		"/Users/coelhog/Downloads/secom/admin/excluir/publicidade.php",
+		"/Users/coelhog/Downloads/secom/admin/grafico-1.php",
+		"/Users/coelhog/Downloads/secom/admin/grafico-2.php",
+		"/Users/coelhog/Downloads/secom/admin/grafico-3.php",
+		"/Users/coelhog/Downloads/secom/admin/grafico-4.php",
+		"/Users/coelhog/Downloads/secom/admin/grafico-5.php",
+		"/Users/coelhog/Downloads/secom/admin/inserir/administrador.php",
+		"/Users/coelhog/Downloads/secom/admin/inserir/depoimento.php",
+		"/Users/coelhog/Downloads/secom/admin/meus-dados.php",
+		"/Users/coelhog/Downloads/secom/admin/pesquisa.php",
+		"/Users/coelhog/Downloads/secom/admin/publicidade.php",
+		"/Users/coelhog/Downloads/secom/convencoes-coletivas.php",
+		"/Users/coelhog/Downloads/secom/denuncias.php",
+		"/Users/coelhog/Downloads/secom/diretoria.php",
+		"/Users/coelhog/Downloads/secom/fix-urls.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/coelhog/Dev/mSite/msites-master/dashboard/src/assets",
+			"/Users/coelhog/Downloads/secom",
+			"/Users/coelhog/Downloads/secom/index.php",
+			"/Users/coelhog/Downloads/secom"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"$mdb-checkbox-checked-color",
+			"input-border-focus",
+			".form-control, .form-group .form-control",
+			"src=\"",
+			"form-cont",
+			"filter",
+			"url",
+			"green",
+			".checkbox input[type=checkbox]:checked + .checkbox-material .check ",
+			".checkbox-material",
+			"check",
+			"btn-",
+			".css",
+			".row",
+			"src=\"/",
+			"src=\"",
+			"src",
+			"/uploads",
+			"cloudflare.min",
+			"//www.casadabateria.com.br",
+			"src=\"",
+			"src=",
+			"src=\"",
+			"easy",
+			"body",
+			"400",
+			"location",
+			"add",
+			"GeraColunas",
+			"mysqli_insert_id()",
+			"ereg",
+			"mysqli_real_escape_string(",
+			"mysqli_query(",
+			"styles"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"src=\"https://www.experimenta.com.mx",
+			"src=\"http://www.garzablancaresort.com.mx/",
+			"https://www.pullman.com.co/uploads",
+			"http://www.casadabateria.com.br",
+			"src=\"//www.casadabateria.com.br/mobile/",
+			"src=\"www.casadabateria.com.br/mobile/",
+			"src=\"https://actuar.com/",
+			"mysqli_insert_id($con)",
+			"mysqli_real_escape_string($con, ",
+			"mysqli_query($con, "
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 10,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/src/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1436,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								153,
+								153
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/src/app/pages/register/register.component.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10670,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/src/app/pages/register/register.component.ts",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1137,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								852,
+								852
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/angular-cli.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2553,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/karma.conf.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1240,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/protractor.conf.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 756,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/tsconfig.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/tslint.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2710,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/typings.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 88,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/app.yaml",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 57,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/YAML/YAML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/package.json",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/Users/coelhog/Dev/mSite/msites-master/dashboard/src/assets/sass/material-dashboard/_variables.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								37117,
+								37117
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 17240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Dashboard.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 325.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
